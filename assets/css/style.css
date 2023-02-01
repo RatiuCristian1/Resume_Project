@@ -3,28 +3,37 @@
 /* ------------------------------------Colors*/
 
 .bg-color-name-title {
-    background-color: #0ba7d6;
+    background: url(../images/new_design1.jpg) no-repeat;
+    background-size: cover;
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
+    background-color: rgb(240, 240, 240);
+}
+
+.bg-color-personal-info {
+    background-color: rgb(240, 240, 240);
+}
+
+.bg-color-work-history {
+    background-color: #d38511de;
 }
 
 .ui-menu-color-home {
-    background-color: #d46707;
+    background-image: linear-gradient(to left bottom, #01559a, #005cb2, #0262ca, #2467e2, #426af8);
 }
 
 .ui-menu-color-resume {
-    background-color: #a7059e;
+    background-image: linear-gradient(to right bottom, #974c07, #b46b04, #ce8c00, #e4b000, #f6d607);
     
 }
 
 .ui-menu-color-contact {
-    background-color: #117204;
+    background-image: linear-gradient(to left bottom, #01559a, #005cb2, #0262ca, #2467e2, #426af8);
 }
 
 .ui-menu-color-download {
-    background-color: #3c0694e1;
+    background-image: linear-gradient(to right bottom, #974c07, #b46b04, #ce8c00, #e4b000, #f6d607);
 }
 
 /* --------------------------------------Special margins/paddings/text*/
@@ -55,14 +64,20 @@ h1,h2,h3,h4 {
     display: table-cell;
     padding: 0 30px 30px;
     float: none;
-}
 
+}
+.history-heading,
 .section-heading {
     font-family: 'Exo', sans-serif;
     font-weight: 300;
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 65px;
 }
+
+ .section-mid { 
+    min-height: 480px;
+    background-color: rgb(240, 240, 240);
+} 
 
 /* --------------------------------------Heading*/
 
@@ -151,7 +166,7 @@ header {
 /* --------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(26, 23, 23, 0.2);
     height: 120px;
 
 }
@@ -159,9 +174,9 @@ header {
 /* --------------------------------------Footer*/
 
 footer {
-    background-color: #0ba7d6;
+    background-color: #01559A;
     color: #fafafa;
-    min-height: 120px;
+    min-height: 200px;
     margin: 0;
 }
 
@@ -189,11 +204,12 @@ footer {
     height: 32px;
     padding: 12px 0;
     border-radius: 50%;
+    border: 1px solid ;
     font-size: 13px;
     line-height: 7px;
     text-align: center;
     color: #fafafa;
-    background: rgb(9, 25, 236);
+    background: #01559A;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -207,3 +223,124 @@ footer {
 #footer-details {
     padding: 20px;
 }
+
+/* --------------------------------------Three Reasons*/
+
+.three-reasons-icon {
+    font-size: 26px;
+    color: #e84610;
+}
+
+.three-reasons-heading {
+    margin-bottom: 15px;
+}
+
+/* --------------------------------------Personla Info*/
+
+.personal-info-item {
+    margin-bottom: 20px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+} 
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
+}
+
+/* --------------------------------------Skills*/
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+    margin: 10px 0;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fafafa;
+    background-color: rgb(25, 25, 25, 0.2);
+}
+
+.progress-section {
+    margin: 40px 10px;
+}
+
+/* --------------------------------------Work History*/
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    color: #fafafa;
+    border-left: 1px solid;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-dates);
+    position: absolute;
+    left: 2.5em;
+    top: 3em;
+    display: block;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:after {
+    width: 12px;
+    height: 12px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -6px;
+    border-radius: 12px;
+    content: '';
+    background: #fafafa;
+}
+
+.history-items {
+    margin-bottom: 30px;
+}
+
+
+
+
+
