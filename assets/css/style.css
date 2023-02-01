@@ -12,11 +12,15 @@
 }
 
 .bg-color-personal-info {
-    background-color: rgb(240, 240, 240);
+    background-color: rgba(192, 192, 192, 0.247);
 }
 
 .bg-color-work-history {
     background-color: #d38511de;
+}
+
+.bg-color-contact {
+    background-color: #fff;
 }
 
 .ui-menu-color-home {
@@ -62,7 +66,7 @@ h1,h2,h3,h4 {
 
 .section-column {
     display: table-cell;
-    padding: 0 30px 30px;
+    padding: 0 50px 70px;
     float: none;
 
 }
@@ -178,6 +182,7 @@ footer {
     color: #fafafa;
     min-height: 200px;
     margin: 0;
+    padding-top: 20px;
 }
 
 .cv-pdf i {
@@ -340,6 +345,39 @@ footer {
     margin-bottom: 30px;
 }
 
+
+/* --------------------------------------Contact Form */
+
+.contact-heading {
+    font-family: 'Exo', sans-serif;
+    font-weight: 300;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    color: #fafafa;
+    background-color: chocolate;
+}
+
+/* --------------------------------------Media Query */
+
+@media (min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
 
 
 
