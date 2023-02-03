@@ -14,7 +14,8 @@
 .bg-color-personal-info {
     background-color: rgba(192, 192, 192, 0.247);
     /* background: url(../images/Marble-Background.jpg) no-repeat ; */
-    font-size: 20px;
+    font-size: 23px;
+    background-size: cover;
 }
 
 .bg-color-work-history {
@@ -89,10 +90,14 @@ h1,h2,h3,h4 {
 }
 
  .section-mid { 
-    /* min-height: 480px; */
     background-color: rgb(240, 240, 240);
+    /* height: 457px; */
 }
 
+
+.git-container {
+    height: 460px;
+}
 
 
 /* --------------------------------------Heading*/
@@ -179,6 +184,11 @@ header {
     letter-spacing: 2px;
 }
 
+.heading-city {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 /* --------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
@@ -192,7 +202,7 @@ header {
 footer {
     background-color: #01559A;
     color: #fafafa;
-    min-height: 245px;
+    min-height: 225px;
     margin: 0;
     padding-top: 20px;
 }
@@ -227,10 +237,10 @@ footer {
     text-align: center;
     color: #fafafa;
     background: #01559A;
-    transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+    transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -238,7 +248,11 @@ footer {
 }
 
 #footer-details {
-    padding: 20px;
+    padding: 30px;
+}
+
+#footer-details h5 {
+    padding-bottom: 15px;
 }
 
 /* --------------------------------------Three Reasons*/
