@@ -13,7 +13,6 @@
 
 .bg-color-personal-info {
     background-color: rgba(192, 192, 192, 0.247);
-    /* background: url(../images/Marble-Background.jpg) no-repeat ; */
     font-size: 23px;
     background-size: cover;
 }
@@ -111,13 +110,13 @@ header {
 }
 
 .logo {
-    background: url("../images/foto\ daddy\ USA.jpg");
+    background: url("../images/IMG_6431.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 360px;
-
 }
+
 
 .name {
     font-family: 'Exo', sans-serif;
@@ -164,6 +163,7 @@ header {
     text-decoration: none;
     color: #fff;
     height: 120%;
+    
 }
 
 .menuitem a i {
@@ -191,8 +191,10 @@ header {
 
 /* --------------------------------------Hover.css*/
 
+
+
 .hvr-sweep-to-bottom:before {
-    background-color: rgba(26, 23, 23, 0.2);
+    background-color: rgba(224, 32, 32, 0.2);
     height: 120px;
 
 }
