@@ -109,6 +109,10 @@ header {
     margin-left: 50px;
 }
 
+.heading-text {
+    padding-left: 30px;
+}
+
 .logo {
     background: url("../images/IMG_6431.jpg");
     background-position: center;
