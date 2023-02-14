@@ -262,6 +262,10 @@ footer {
     padding-bottom: 15px;
 }
 
+.container-github {
+    margin-top: 300px;
+}
+
 /* --------------------------------------Three Reasons*/
 
 .three-reasons-icon {
@@ -393,9 +397,11 @@ footer {
 }
 
 .center-form {
+    /* background: #b12e02; */
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    max-height: 300px;
 }
 
 button[type="submit"] {
@@ -409,6 +415,7 @@ button[type="submit"]:hover {
     background-color: rgb(253, 125, 34);
     color: black;
 }
+
 
 /* --------------------------------------Media Query */
 
@@ -425,6 +432,13 @@ button[type="submit"]:hover {
         min-height: 240px;
         margin: 0 auto;
         max-width: 50%;
+    }
+
+}
+
+@media (max-width: 975px) {
+    .container-github {
+        margin-top: 1100px;
     }
 }
 
