@@ -22,8 +22,13 @@
 }
 
 .bg-color-contact {
-    background-color: #fff;
+    background-color: rgb(240, 240, 240);
 }
+
+.conatct1 {
+    padding-bottom: 130px;
+}
+
 
 .ui-menu-color-home {
     background-image: linear-gradient(to left bottom, #01559a, #005cb2, #0262ca, #2467e2, #426af8);
