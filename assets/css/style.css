@@ -21,9 +21,10 @@
     background-color: #d38511de;
 }
 
-.bg-color-contact {
-    background-color: rgb(240, 240, 240);
-}
+/* .bg-color-contact {
+    /* background-color: rgb(240, 240, 240); 
+}*/
+
 
 .conatct1 {
     padding-bottom: 130px;
@@ -443,7 +444,7 @@ button[type="submit"]:hover {
 
 @media (max-width: 975px) {
     .container-github {
-        margin-top: 1100px;
+        margin-top: 1300px;
     }
 }
 
